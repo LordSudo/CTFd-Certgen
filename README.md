@@ -69,21 +69,13 @@ If the font is missing or misconfigured:
 
 ```bash
 cd CTFd/CTFd/plugins
-git clone https://github.com/yourusername/ctfd-cert-generator.git
-```
+git clone https://github.com/LordSudo/CTFd-Certgen.git
 
 2. Restart CTFd:
 
 ```bash
 docker-compose restart
 ```
-
-_or manually:_
-
-```bash
-python serve.py
-```
-
 ---
 
 ## Admin Setup (CTFd UI)
@@ -122,7 +114,7 @@ Once configured, users can access the certificate page via:
 
 You can customize:
 
-- Certificate background (`cert.jpeg`)  
+- Certificate background (`cert.png`)  
 - Event name    
 - Font (via `FONT_PATH`)  
 
@@ -134,8 +126,8 @@ You can customize:
 ctfd-cert-generator/
 │── __init__.py
 │── routes.py
-│── certificates.html
-│── cert.jpeg
+│── /templates/certificates.html
+│── cert.png
 │── README.md
 ```
 
