@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3>Certificate of Participation</h3>
+        </div>
+
+        <div class="card-body">
+            <p>
+                Hello <strong>{{ username }}</strong>,
+            </p>
+
+            <p>
+                Generate and download your participation certificate below.
+            </p>
+
+            <a href="{{ url_for('certificates.download_certificate') }}"
+               class="btn btn-primary">
+                Generate Certificate
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
