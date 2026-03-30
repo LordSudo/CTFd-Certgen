@@ -1,4 +1,4 @@
-# CTFd Certificate Generator Plugin 🎓
+# CTFd Certificate Generator Plugin
 
 A CTFd plugin that allows authenticated users to generate personalized **Certificates of Participation** with a single click.
 
@@ -20,7 +20,7 @@ The certificate is dynamically generated using data from the CTFd database, incl
 
 ## Certificate Preview
 
-![Certificate Preview](cert.jpeg)
+![Certificate Preview](cert.png)
 
 ---
 
